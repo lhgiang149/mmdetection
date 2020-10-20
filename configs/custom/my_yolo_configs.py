@@ -51,7 +51,8 @@ test_cfg = dict(
     max_per_img=100)
 # dataset settings
 dataset_type = 'TobyDataset'
-data_root = '/home/giang/Desktop/dataset/'
+# data_root = '/home/giang/Desktop/dataset/'
+data_root = '/home/../../data3/giangData/'
 img_norm_cfg = dict(mean=[0, 0, 0], std=[255., 255., 255.], to_rgb=True)
 train_pipeline = [
     dict(type='LoadImageFromFile', to_float32=True),
@@ -89,19 +90,22 @@ test_pipeline = [
         ])
 ]
 data = dict(
-    samples_per_gpu=8,
-    workers_per_gpu=16,
+    samples_per_gpu=10,
+    workers_per_gpu=4,
     train=dict(
         type=dataset_type,
         ann_file=data_root + 'yolo_mmdetection_train.txt',
+        # ann_file=data_root + 'train.txt',
         pipeline=train_pipeline),
     val=dict(
         type=dataset_type,
         ann_file=data_root + 'yolo_mmdetection_val.txt',
+        # ann_file=data_root + 'val.txt',
         pipeline=test_pipeline),
     test=dict(
         type=dataset_type,
         ann_file=data_root + 'yolo_mmdetection_val.txt',
+        # ann_file=data_root + 'val.txt',
         pipeline=test_pipeline))
 # optimizer
 optimizer = dict(type='SGD', lr=0.001, momentum=0.9, weight_decay=0.0005)
@@ -114,5 +118,5 @@ lr_config = dict(
     warmup_ratio=0.1,
     step=[218, 246])
 # runtime settings
-total_epochs = 50
+total_epochs = 100
 evaluation = dict(interval=1, metric=['mAP'])
