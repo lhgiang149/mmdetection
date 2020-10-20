@@ -1,4 +1,8 @@
-_base_ = '../htc/htc_r50_fpn_1x_coco.py'
+_base_ = [
+    '../_base_/models/cascade_rcnn_r50_fpn.py',
+    '../_base_/datasets/coco_detection.py',
+    '../_base_/schedules/schedule_1x.py', '../_base_/default_runtime.py'
+]
 
 
 model = dict(
@@ -69,18 +73,18 @@ data = dict(
     workers_per_gpu=4,
     train=dict(
         type=dataset_type,
-        ann_file=data_root + 'yolo_mmdetection_train.txt',
-        # ann_file=data_root + 'train.txt',
+        # ann_file=data_root + 'yolo_mmdetection_train.txt',
+        ann_file=data_root + 'train.txt',
         pipeline=train_pipeline),
     val=dict(
         type=dataset_type,
-        ann_file=data_root + 'yolo_mmdetection_val.txt',
-        # ann_file=data_root + 'val.txt',
+        # ann_file=data_root + 'yolo_mmdetection_val.txt',
+        ann_file=data_root + 'val.txt',
         pipeline=test_pipeline),
     test=dict(
         type=dataset_type,
-        ann_file=data_root + 'yolo_mmdetection_val.txt',
-        # ann_file=data_root + 'val.txt',
+        # ann_file=data_root + 'yolo_mmdetection_val.txt',
+        ann_file=data_root + 'val.txt',
         pipeline=test_pipeline))
 
 evaluation = dict(interval=1, metric=['mAP'])
