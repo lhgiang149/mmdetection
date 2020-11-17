@@ -36,6 +36,7 @@ dataset_type = 'TobyDataset'
 # classes = 'ROI'
 # data_root = '/home/giang/Desktop/dataset/'
 data_root = '/home/../../data3/giangData/'
+# data_root = 'D:/Etri_tracking_data/new_data/'
 img_norm_cfg = dict(
     mean=[123.675, 116.28, 103.53], std=[58.395, 57.12, 57.375], to_rgb=True)
     
@@ -87,7 +88,7 @@ data = dict(
     test=dict(
         type=dataset_type,
         # classes=classes,
-        ann_file=data_root + 'val_combine.txt',
+        ann_file=data_root + 'test_detectoRS.txt',
         # ann_file=data_root + 'val.txt',
         pipeline=test_pipeline))
 
