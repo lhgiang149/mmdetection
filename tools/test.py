@@ -159,17 +159,6 @@ def main():
 
     # build the model and load checkpoint
     model = build_detector(cfg.model, train_cfg=None, test_cfg=cfg.test_cfg)
-
-    dummy_input = torch.randn(10,3,1333,800, device = 'cuda')
-    torch.onnx.export(
-        model,
-        [dummy_input],
-        '/home/detectors.onnx',
-        export_params= True,
-        keep_initializers_as_inputs=True,
-        verbose = False)
-        # opset_version=11)
-
     fp16_cfg = cfg.get('fp16', None)
     if fp16_cfg is not None:
         wrap_fp16_model(model)
@@ -184,36 +173,34 @@ def main():
         model.CLASSES = dataset.CLASSES
 
     if not distributed:
-        from torchsummary import summary
         model = MMDataParallel(model, device_ids=[0])
-        # print(model)
-        # summary(model,(3, 1333, 800))
-        # outputs = single_gpu_test(model, data_loader, args.show, args.show_dir,
-        #                           args.show_score_thr)
-    # else:
-    #     model = MMDistributedDataParallel(
-    #         model.cuda(),
-    #         device_ids=[torch.cuda.current_device()],
-    #         broadcast_buffers=False)
-    #     outputs = multi_gpu_test(model, data_loader, args.tmpdir,
-    #                              args.gpu_collect)
+        outputs = single_gpu_test(model, data_loader, args.show, args.show_dir,
+                                  args.show_score_thr)
+    else:
+        model = MMDistributedDataParallel(
+            model.cuda(),
+            device_ids=[torch.cuda.current_device()],
+            broadcast_buffers=False)
+        outputs = multi_gpu_test(model, data_loader, args.tmpdir,
+                                 args.gpu_collect)
 
-    # rank, _ = get_dist_info()
-    # if rank == 0:
-    #     if args.out:
-    #         print(f'\nwriting results to {args.out}')
-    #         mmcv.dump(outputs, args.out)
-    #     kwargs = {} if args.eval_options is None else args.eval_options
-    #     if args.format_only:
-    #         dataset.format_results(outputs, **kwargs)
-    #     if args.eval:
-    #         eval_kwargs = cfg.get('evaluation', {}).copy()
-    #         # hard-code way to remove EvalHook args
-    #         for key in ['interval', 'tmpdir', 'start', 'gpu_collect']:
-    #             eval_kwargs.pop(key, None)
-    #         eval_kwargs.update(dict(metric=args.eval, **kwargs))
-    #         print(dataset.evaluate(outputs, **eval_kwargs))
+    rank, _ = get_dist_info()
+    if rank == 0:
+        if args.out:
+            print(f'\nwriting results to {args.out}')
+            mmcv.dump(outputs, args.out)
+        kwargs = {} if args.eval_options is None else args.eval_options
+        if args.format_only:
+            dataset.format_results(outputs, **kwargs)
+        if args.eval:
+            eval_kwargs = cfg.get('evaluation', {}).copy()
+            # hard-code way to remove EvalHook args
+            for key in ['interval', 'tmpdir', 'start', 'gpu_collect']:
+                eval_kwargs.pop(key, None)
+            eval_kwargs.update(dict(metric=args.eval, **kwargs))
+            print(dataset.evaluate(outputs, **eval_kwargs))
 
 
 if __name__ == '__main__':
     main()
+
