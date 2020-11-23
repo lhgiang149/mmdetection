@@ -76,13 +76,13 @@ data = dict(
     train=dict(
         type=dataset_type,
         # classes=classes,
-        ann_file=data_root + 'train_combine.txt',
+        ann_file=data_root + 'Professor/train_skip.txt',
         # ann_file=data_root + 'train.txt',
         pipeline=train_pipeline),
     val=dict(
         type=dataset_type,
         # classes=classes,
-        ann_file=data_root + 'val_combine.txt',
+        ann_file=data_root + 'Professor/val_full.txt',
         # ann_file=data_root + 'val.txt',
         pipeline=test_pipeline),
     test=dict(
@@ -94,4 +94,7 @@ data = dict(
 
 evaluation = dict(interval=1, metric=['mAP'])
 total_epochs = 100
-optimizer = dict(type='SGD', lr=0.001, momentum=0.9, weight_decay=0.0005)
+optimizer = dict(type='SGD', lr=0.01, momentum=0.9, weight_decay=0.0005)
+# optimizer = dict(type='Adam', lr=0.0005, weight_decay=0.0005)
+# optimizer = dict(type='adam', lr = 0.0001)
+# optimizer = dict(type='Adam', lr=0.0005)
