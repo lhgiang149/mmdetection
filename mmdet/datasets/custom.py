@@ -7,7 +7,7 @@ from torch.utils.data import Dataset
 
 from mmdet.core import eval_map, eval_recalls
 from .builder import DATASETS
-from .pipelines import Compose
+from .pipelines import Compose, TobyRead
 
 
 @DATASETS.register_module()
@@ -99,7 +99,7 @@ class CustomDataset(Dataset):
             self._set_group_flag()
 
         # processing pipeline
-        self.pipeline = Compose(pipeline)
+        self.pipeline = TobyRead(pipeline)
 
     def __len__(self):
         """Total number of samples of data."""

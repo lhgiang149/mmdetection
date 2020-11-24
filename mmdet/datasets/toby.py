@@ -3,12 +3,17 @@ import numpy as np
 
 from .builder import DATASETS
 from .custom import CustomDataset
-
+import cv2
 
 @DATASETS.register_module()
 class TobyDataset(CustomDataset):
-
     CLASSES = ('ROI')
+    
+    # def __init__(self):
+    #     super(TobyDataset, self).__init__()
+    #     self.pipeline = TobyRead(pipeline)
+
+    
 
     def load_annotations(self, ann_file):
         ann_list = mmcv.list_from_file(ann_file)
@@ -46,38 +51,44 @@ class TobyDataset(CustomDataset):
     def get_ann_info(self, idx):
         return self.data_infos[idx]['ann']
 
-    def __getitem__(self, idx):
-        """Get training/test data after pipeline.
+    # def __getitem__(self, idx):
+    #     """Get training/test data after pipeline.
 
-        Args:
-            idx (int): Index of data.
+    #     Args:
+    #         idx (int): Index of data.
 
-        Returns:
-            dict: Training/test data (with annotation if `test_mode` is set \
-                True).
-        """
-        path_to_bpo_image = '/home/user/image_dir/%d.png'%(idx)
-        if self.test_mode:
-            data = self.prepare_test_img(idx)
-            data['img'] = self.from_3channel_to_6channel(data['img'].data, path_to_bpo_image)
-            return data
-            # return self.prepare_test_img(idx)
-        while True:
-            data = self.prepare_train_img(idx)
-            data['img'] = self.from_3channel_to_6channel(data['img'].data, path_to_bpo_image)
-            if data is None:
-                idx = self._rand_another(idx)
-                continue
-            return data
+    #     Returns:
+    #         dict: Training/test data (with annotation if `test_mode` is set \
+    #             True).
+    #     """
+    #     add_path = '/home/../../data3/giangData/image_vol1_Sejin/%d.png'%(idx)
+    #     if self.test_mode:
+    #         data = self.prepare_test_img(idx)
+    #         data['img'] = self.add_channel(data['img'].data, add_path, gray = True)
+    #         return data
+    #         # return self.prepare_test_img(idx)
+    #     while True:
+    #         data = self.prepare_train_img(idx)
+    #         data['img'] = self.add_channel(data['img'].data, add_path, gray = True)
+    #         if data is None:
+    #             idx = self._rand_another(idx)
+    #             continue
+    #         return data
 
-    def add_channel(image, addition = '', gray = True):
-        # bpo_path: image three channel with ball-people-others in order
-        if not addition:
-            return image
-        if gray:
-            add_image = cv2.imread(addition, 0)
-        else:
-            add_image = cv2.imread(addition)
-            add_image = addition[:,:,::-1] # faster than cvtColor
-        out = np.concatenate((image,add_image), axis = 2)
-        return out
+    # def add_channel(self, image, addition = '', gray = True):
+    #     # bpo_path: image three channel with ball-people-others in order
+    #     print('Type: ', type(image))
+    #     try:
+    #         print('shape: ', image.shape)
+    #     except :
+    #         print('shape: ', image.size)
+    #     if not addition:
+    #         return image
+    #     if gray:
+    #         add_image = cv2.imread(addition, 0)
+    #     else:
+    #         add_image = cv2.imread(addition)
+    #         add_image = addition[:,:,::-1] # faster than cvtColor
+    #     # print('Type: ', self.pipeline(add_image))
+    #     out = np.concatenate((image,add_image), axis = 2)
+    #     return out
