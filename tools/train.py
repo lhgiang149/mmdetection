@@ -8,7 +8,7 @@ import warnings
 import mmcv
 import torch
 from mmcv import Config, DictAction
-from mmcv.runner import init_dist
+from mmcv.runner import get_dist_info, init_dist
 from mmcv.utils import get_git_hash
 
 from mmdet import __version__
@@ -17,7 +17,6 @@ from mmdet.datasets import build_dataset
 from mmdet.models import build_detector
 from mmdet.utils import collect_env, get_root_logger
 
-# CUDA_LAUNCH_BLOCKING=1
 
 def parse_args():
     parser = argparse.ArgumentParser(description='Train a detector')
@@ -115,6 +114,9 @@ def main():
     else:
         distributed = True
         init_dist(args.launcher, **cfg.dist_params)
+        # re-set gpu_ids with distributed training mode
+        _, world_size = get_dist_info()
+        cfg.gpu_ids = range(world_size)
 
     # create work_dir
     mmcv.mkdir_or_exist(osp.abspath(cfg.work_dir))
@@ -152,8 +154,6 @@ def main():
     model = build_detector(
         cfg.model, train_cfg=cfg.train_cfg, test_cfg=cfg.test_cfg)
 
-    from mmcv.cnn import ConvAWS2d
-    
     datasets = [build_dataset(cfg.data.train)]
     if len(cfg.workflow) == 2:
         val_dataset = copy.deepcopy(cfg.data.val)
@@ -167,9 +167,6 @@ def main():
             CLASSES=datasets[0].CLASSES)
     # add an attribute for visualization convenience
     model.CLASSES = datasets[0].CLASSES
-
-    model.backbone.conv1 = ConvAWS2d(6, 64, kernel_size=(7, 7), stride=(2, 2), padding=(3, 3), bias=False)
-    # print(model)
     train_detector(
         model,
         datasets,
@@ -178,7 +175,7 @@ def main():
         validate=(not args.no_validate),
         timestamp=timestamp,
         meta=meta)
-    
+
 
 if __name__ == '__main__':
     main()

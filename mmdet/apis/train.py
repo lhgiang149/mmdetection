@@ -67,6 +67,7 @@ def train_detector(model,
             seed=cfg.seed) for ds in dataset
     ]
 
+
     # put model on gpus
     if distributed:
         find_unused_parameters = cfg.get('find_unused_parameters', False)
@@ -83,6 +84,12 @@ def train_detector(model,
 
     # build runner
     optimizer = build_optimizer(model, cfg.optimizer)
+
+    # from mmcv.cnn import ConvAWS2d
+    # model.module.backbone.conv1 = ConvAWS2d(6, 64, kernel_size=(7, 7), stride=(2, 2), padding=(3, 3), bias=False)
+    # model.cuda()
+    # print(model)
+
     runner = EpochBasedRunner(
         model,
         optimizer=optimizer,
@@ -122,9 +129,6 @@ def train_detector(model,
         eval_hook = DistEvalHook if distributed else EvalHook
         runner.register_hook(eval_hook(val_dataloader, **eval_cfg))
 
-    from mmcv.cnn import ConvAWS2d
-    model.backbone.conv1 = ConvAWS2d(6, 64, kernel_size=(7, 7), stride=(2, 2), padding=(3, 3), bias=False)
-
     # user-defined hooks
     if cfg.get('custom_hooks', None):
         custom_hooks = cfg.custom_hooks
@@ -143,4 +147,6 @@ def train_detector(model,
         runner.resume(cfg.resume_from)
     elif cfg.load_from:
         runner.load_checkpoint(cfg.load_from)
+    
+
     runner.run(data_loaders, cfg.workflow, cfg.total_epochs)
