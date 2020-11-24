@@ -100,6 +100,7 @@ class CustomDataset(Dataset):
 
         # processing pipeline
         self.pipeline = TobyRead(pipeline)
+        # self.pipeline = Compose(pipline)
 
     def __len__(self):
         """Total number of samples of data."""
