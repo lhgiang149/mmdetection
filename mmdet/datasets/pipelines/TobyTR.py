@@ -63,16 +63,16 @@ import torch
 
 @PIPELINES.register_module()
 class TobyRead(Compose):
-    # def __init__(self):
-    #     super(TobyRead, self).__init__()
-        
+    def __init__(self, *args, **kwags):
+        super(TobyRead, self).__init__(*args, **kwags)
+        self.add_path = '/home/../../data3/giangData/image_vol1_Sejin/'
     def __call__(self, data):
-        add_path = '/home/../../data3/giangData/image_vol1_Sejin/'
+        # add_path = '/home/../../data3/giangData/image_vol1_Sejin/'
         fake = deepcopy(data)
         # print(fake)
         infor = fake['img_info']['filename']
         name = infor.split('/')[-1]
-        add_name = add_path + name
+        add_name = self.add_path + name
         fake['img_info']['filename'] = add_name
         # print(fake)
         for t in self.transforms:
