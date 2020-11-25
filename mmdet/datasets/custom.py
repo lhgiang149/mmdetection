@@ -99,8 +99,8 @@ class CustomDataset(Dataset):
             self._set_group_flag()
 
         # processing pipeline
-        self.pipeline = TobyRead(pipeline)
-        # self.pipeline = Compose(pipline)
+        self.input_pipeline = pipeline
+        self.pipeline = Compose(self.input_pipeline)
 
     def __len__(self):
         """Total number of samples of data."""
