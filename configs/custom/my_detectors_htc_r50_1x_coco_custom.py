@@ -31,7 +31,23 @@ model = dict(
             stage_with_sac=(False, True, True, True),
             pretrained='torchvision://resnet50',
             style='pytorch')))
-            
+
+
+test_cfg = dict(
+    rpn=dict(
+        nms_across_levels=False,
+        nms_pre=1000,
+        nms_post=1000,
+        max_num=1000,
+        nms_thr=0.7,
+        min_bbox_size=0),
+    rcnn=dict(
+        score_thr=0.3,
+        nms=dict(type='nms', iou_threshold=0.5),
+        max_per_img=100))
+
+
+
 dataset_type = 'TobyDataset'
 data_root = '/home/../../data3/giangData/' # replace with your path
 img_norm_cfg = dict(
@@ -47,6 +63,11 @@ train_pipeline = [
     dict(type='Pad', size_divisor=32),
     dict(type='SegRescale', scale_factor=1 / 8),
     dict(type='DefaultFormatBundle'),
+
+
+    # dict(type='TobyRead'),
+    
+    
     dict(
         type='Collect',
         keys=['img', 'gt_bboxes', 'gt_labels']),
@@ -68,8 +89,8 @@ test_pipeline = [
 ]
 
 data = dict(
-    samples_per_gpu=1,
-    workers_per_gpu=0,
+    samples_per_gpu=8,
+    workers_per_gpu=4,
     train=dict(
         type=dataset_type,
         ann_file=data_root + 'train_1175_7680.txt', # replace with your path
@@ -80,7 +101,7 @@ data = dict(
         pipeline=test_pipeline),
     test=dict(
         type=dataset_type,
-        ann_file=data_root + 'test_detectoRS.txt', # replace with your path
+        ann_file=data_root + 'videoA_1333x800_18000.txt', # replace with your path
         pipeline=test_pipeline))
 
 evaluation = dict(interval=1, metric=['mAP'])

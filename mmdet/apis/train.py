@@ -148,5 +148,13 @@ def train_detector(model,
     elif cfg.load_from:
         runner.load_checkpoint(cfg.load_from)
     
+    # from mmcv.cnn import ConvAWS2d
+    # from torch import nn as nn
+    # add_layer = ConvAWS2d(6, 64, kernel_size=(7, 7), stride=(2, 2), padding=(3, 3), bias=False)
+    # nn.init.xavier_uniform(add_layer.weight)
+    # runner.model.module.backbone.conv1 = add_layer
+    # runner.model.cuda()   
+    # print('================')
+    # print(runner.model)
 
     runner.run(data_loaders, cfg.workflow, cfg.total_epochs)
