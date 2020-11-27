@@ -65,7 +65,7 @@ train_pipeline = [
     dict(type='DefaultFormatBundle'),
 
 
-    # dict(type='TobyRead'),
+    # dict(type='LoadMultiChannelImageFromFiles'),
     
     
     dict(
