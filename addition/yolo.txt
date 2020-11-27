@@ -1,0 +1,301 @@
+#
+D:\Etri_tracking_data\new_data\new_to_train\val_raw\0.png
+#
+1
+1216 1120 1702 1384 0
+#
+D:\Etri_tracking_data\new_data\new_to_train\val_raw\1.png
+#
+1
+1216 1120 1702 1384 0
+#
+D:\Etri_tracking_data\new_data\new_to_train\val_raw\10.png
+#
+1
+1216 1120 1702 1384 0
+#
+D:\Etri_tracking_data\new_data\new_to_train\val_raw\11.png
+#
+1
+1216 1120 1703 1384 0
+#
+D:\Etri_tracking_data\new_data\new_to_train\val_raw\12.png
+#
+1
+1216 1120 1703 1384 0
+#
+D:\Etri_tracking_data\new_data\new_to_train\val_raw\13.png
+#
+1
+1216 1120 1703 1384 0
+#
+D:\Etri_tracking_data\new_data\new_to_train\val_raw\14.png
+#
+1
+1217 1120 1703 1384 0
+#
+D:\Etri_tracking_data\new_data\new_to_train\val_raw\15.png
+#
+1
+1217 1120 1703 1384 0
+#
+D:\Etri_tracking_data\new_data\new_to_train\val_raw\16.png
+#
+1
+1217 1120 1703 1384 0
+#
+D:\Etri_tracking_data\new_data\new_to_train\val_raw\17.png
+#
+1
+1217 1120 1703 1383 0
+#
+D:\Etri_tracking_data\new_data\new_to_train\val_raw\18.png
+#
+1
+1217 1120 1704 1383 0
+#
+D:\Etri_tracking_data\new_data\new_to_train\val_raw\19.png
+#
+1
+1217 1120 1704 1383 0
+#
+D:\Etri_tracking_data\new_data\new_to_train\val_raw\2.png
+#
+1
+1217 1120 1704 1383 0
+#
+D:\Etri_tracking_data\new_data\new_to_train\val_raw\20.png
+#
+1
+1218 1120 1704 1383 0
+#
+D:\Etri_tracking_data\new_data\new_to_train\val_raw\21.png
+#
+1
+1218 1119 1704 1383 0
+#
+D:\Etri_tracking_data\new_data\new_to_train\val_raw\22.png
+#
+1
+1218 1119 1704 1383 0
+#
+D:\Etri_tracking_data\new_data\new_to_train\val_raw\23.png
+#
+1
+1218 1119 1704 1383 0
+#
+D:\Etri_tracking_data\new_data\new_to_train\val_raw\24.png
+#
+1
+1218 1119 1705 1383 0
+#
+D:\Etri_tracking_data\new_data\new_to_train\val_raw\25.png
+#
+1
+1218 1119 1705 1383 0
+#
+D:\Etri_tracking_data\new_data\new_to_train\val_raw\26.png
+#
+1
+1219 1119 1705 1383 0
+#
+D:\Etri_tracking_data\new_data\new_to_train\val_raw\27.png
+#
+1
+1219 1119 1705 1383 0
+#
+D:\Etri_tracking_data\new_data\new_to_train\val_raw\28.png
+#
+1
+1219 1119 1705 1383 0
+#
+D:\Etri_tracking_data\new_data\new_to_train\val_raw\29.png
+#
+1
+1219 1119 1705 1383 0
+#
+D:\Etri_tracking_data\new_data\new_to_train\val_raw\3.png
+#
+1
+1219 1119 1705 1382 0
+#
+D:\Etri_tracking_data\new_data\new_to_train\val_raw\30.png
+#
+1
+1219 1119 1706 1382 0
+#
+D:\Etri_tracking_data\new_data\new_to_train\val_raw\31.png
+#
+1
+1219 1119 1706 1382 0
+#
+D:\Etri_tracking_data\new_data\new_to_train\val_raw\32.png
+#
+1
+1220 1119 1706 1382 0
+#
+D:\Etri_tracking_data\new_data\new_to_train\val_raw\33.png
+#
+1
+1220 1119 1706 1382 0
+#
+D:\Etri_tracking_data\new_data\new_to_train\val_raw\34.png
+#
+1
+1220 1119 1706 1382 0
+#
+D:\Etri_tracking_data\new_data\new_to_train\val_raw\35.png
+#
+1
+1220 1118 1706 1382 0
+#
+D:\Etri_tracking_data\new_data\new_to_train\val_raw\36.png
+#
+1
+1220 1118 1707 1382 0
+#
+D:\Etri_tracking_data\new_data\new_to_train\val_raw\37.png
+#
+1
+1220 1118 1707 1382 0
+#
+D:\Etri_tracking_data\new_data\new_to_train\val_raw\38.png
+#
+1
+1220 1118 1707 1382 0
+#
+D:\Etri_tracking_data\new_data\new_to_train\val_raw\39.png
+#
+1
+1221 1118 1707 1382 0
+#
+D:\Etri_tracking_data\new_data\new_to_train\val_raw\4.png
+#
+1
+1221 1118 1707 1382 0
+#
+D:\Etri_tracking_data\new_data\new_to_train\val_raw\40.png
+#
+1
+1221 1118 1707 1382 0
+#
+D:\Etri_tracking_data\new_data\new_to_train\val_raw\41.png
+#
+1
+1221 1118 1707 1382 0
+#
+D:\Etri_tracking_data\new_data\new_to_train\val_raw\42.png
+#
+1
+1221 1118 1708 1382 0
+#
+D:\Etri_tracking_data\new_data\new_to_train\val_raw\43.png
+#
+1
+1221 1118 1708 1381 0
+#
+D:\Etri_tracking_data\new_data\new_to_train\val_raw\44.png
+#
+1
+1221 1118 1708 1381 0
+#
+D:\Etri_tracking_data\new_data\new_to_train\val_raw\45.png
+#
+1
+1222 1118 1708 1381 0
+#
+D:\Etri_tracking_data\new_data\new_to_train\val_raw\46.png
+#
+1
+1222 1118 1708 1381 0
+#
+D:\Etri_tracking_data\new_data\new_to_train\val_raw\47.png
+#
+1
+1222 1118 1708 1381 0
+#
+D:\Etri_tracking_data\new_data\new_to_train\val_raw\48.png
+#
+1
+1222 1117 1708 1381 0
+#
+D:\Etri_tracking_data\new_data\new_to_train\val_raw\49.png
+#
+1
+1222 1117 1709 1381 0
+#
+D:\Etri_tracking_data\new_data\new_to_train\val_raw\5.png
+#
+1
+1222 1117 1709 1381 0
+#
+D:\Etri_tracking_data\new_data\new_to_train\val_raw\50.png
+#
+1
+1223 1117 1709 1381 0
+#
+D:\Etri_tracking_data\new_data\new_to_train\val_raw\51.png
+#
+1
+1223 1117 1709 1381 0
+#
+D:\Etri_tracking_data\new_data\new_to_train\val_raw\52.png
+#
+1
+1223 1117 1709 1381 0
+#
+D:\Etri_tracking_data\new_data\new_to_train\val_raw\53.png
+#
+1
+1223 1117 1709 1381 0
+#
+D:\Etri_tracking_data\new_data\new_to_train\val_raw\54.png
+#
+1
+1223 1117 1709 1381 0
+#
+D:\Etri_tracking_data\new_data\new_to_train\val_raw\55.png
+#
+1
+1223 1117 1710 1381 0
+#
+D:\Etri_tracking_data\new_data\new_to_train\val_raw\56.png
+#
+1
+1223 1117 1710 1380 0
+#
+D:\Etri_tracking_data\new_data\new_to_train\val_raw\57.png
+#
+1
+1224 1117 1710 1380 0
+#
+D:\Etri_tracking_data\new_data\new_to_train\val_raw\58.png
+#
+1
+1224 1117 1710 1380 0
+#
+D:\Etri_tracking_data\new_data\new_to_train\val_raw\59.png
+#
+1
+1224 1117 1710 1380 0
+#
+D:\Etri_tracking_data\new_data\new_to_train\val_raw\6.png
+#
+1
+1224 1117 1710 1380 0
+#
+D:\Etri_tracking_data\new_data\new_to_train\val_raw\7.png
+#
+1
+1224 1116 1710 1380 0
+#
+D:\Etri_tracking_data\new_data\new_to_train\val_raw\8.png
+#
+1
+1224 1116 1711 1380 0
+#
+D:\Etri_tracking_data\new_data\new_to_train\val_raw\9.png
+#
+1
+1224 1116 1711 1380 0
+#
