@@ -1,0 +1,1285 @@
+#
+D:/Etri_tracking_data/new_data/allTypeB/0.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/1.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/10.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/100.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/101.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/102.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/103.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/104.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/105.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/106.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/107.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/108.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/109.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/11.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/110.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/111.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/112.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/113.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/114.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/115.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/116.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/117.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/118.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/119.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/12.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/120.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/121.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/122.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/123.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/124.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/125.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/126.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/127.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/128.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/129.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/13.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/130.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/131.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/132.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/133.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/134.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/135.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/136.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/137.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/138.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/139.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/14.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/140.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/141.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/142.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/143.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/144.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/145.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/146.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/147.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/148.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/149.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/15.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/150.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/151.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/152.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/153.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/154.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/155.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/156.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/157.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/158.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/159.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/16.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/160.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/161.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/162.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/163.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/164.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/165.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/166.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/167.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/168.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/169.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/17.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/170.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/171.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/172.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/173.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/174.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/175.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/176.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/177.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/178.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/179.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/18.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/180.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/181.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/182.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/183.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/184.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/185.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/186.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/187.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/188.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/189.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/19.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/190.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/191.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/192.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/193.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/194.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/195.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/196.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/197.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/198.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/199.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/2.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/20.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/200.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/201.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/202.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/203.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/204.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/205.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/206.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/207.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/208.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/209.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/21.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/210.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/211.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/212.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/213.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/214.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/215.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/216.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/217.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/218.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/219.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/22.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/220.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/221.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/222.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/223.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/224.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/225.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/226.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/227.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/228.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/229.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/23.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/230.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/231.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/232.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/233.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/234.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/235.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/236.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/237.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/238.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/239.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/24.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/240.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/241.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/242.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/243.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/244.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/245.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/246.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/247.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/248.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/249.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/25.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/250.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/251.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/252.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/253.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/254.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/255.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/256.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/26.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/27.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/28.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/29.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/3.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/30.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/31.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/32.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/33.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/34.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/35.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/36.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/37.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/38.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/39.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/4.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/40.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/41.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/42.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/43.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/44.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/45.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/46.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/47.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/48.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/49.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/5.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/50.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/51.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/52.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/53.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/54.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/55.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/56.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/57.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/58.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/59.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/6.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/60.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/61.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/62.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/63.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/64.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/65.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/66.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/67.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/68.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/69.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/7.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/70.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/71.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/72.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/73.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/74.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/75.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/76.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/77.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/78.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/79.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/8.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/80.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/81.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/82.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/83.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/84.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/85.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/86.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/87.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/88.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/89.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/9.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/90.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/91.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/92.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/93.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/94.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/95.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/96.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/97.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/98.png
+1333 800
+1
+0 0 0 0 0
+#
+D:/Etri_tracking_data/new_data/allTypeB/99.png
+1333 800
+1
+0 0 0 0 0
