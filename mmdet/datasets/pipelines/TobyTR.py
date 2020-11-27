@@ -64,10 +64,10 @@ import torch
 @PIPELINES.register_module()
 class TobyRead(Compose):
     def __init__(self, *args, **kwags):
-        super(TobyRead, self).__init__(*args, **kwags)
         self.add_path = '/home/../../data3/giangData/image_vol1_Sejin/'
+        super(TobyRead, self).__init__(*args, **kwags)
+        
     def __call__(self, data):
-        # add_path = '/home/../../data3/giangData/image_vol1_Sejin/'
         fake = deepcopy(data)
         # print(fake)
         infor = fake['img_info']['filename']
@@ -81,7 +81,7 @@ class TobyRead(Compose):
             if data is None:
                 return None
         add_tensor = fake['img']._data
-        data['img']._data = torch.cat((data['img']._data, add_tensor), dim=0)
+        data['img'] = torch.cat((data['img']._data, add_tensor), dim=0)
         return data
 
 

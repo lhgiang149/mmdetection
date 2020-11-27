@@ -11,7 +11,8 @@ model = dict(
         conv_cfg=dict(type='ConvAWS'),
         sac=dict(type='SAC', use_deform=True),
         stage_with_sac=(False, True, True, True),
-        output_img=True),
+        output_img=True,
+        in_channels = 6),
     neck=dict(
         type='RFP',
         rfp_steps=2,
@@ -89,8 +90,8 @@ test_pipeline = [
 ]
 
 data = dict(
-    samples_per_gpu=8,
-    workers_per_gpu=4,
+    samples_per_gpu=1,
+    workers_per_gpu=0,
     train=dict(
         type=dataset_type,
         ann_file=data_root + 'train_1175_7680.txt', # replace with your path

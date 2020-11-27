@@ -14,7 +14,8 @@ model = dict(
         conv_cfg=dict(type='ConvAWS'),
         sac=dict(type='SAC', use_deform=True),
         stage_with_sac=(False, True, True, True),
-        output_img=True),
+        output_img=True,
+        in_channels=6),
     neck=dict(
         type='RFP',
         in_channels=[256, 512, 1024, 2048],
@@ -199,7 +200,7 @@ test_cfg = dict(
         nms_thr=0.7,
         min_bbox_size=0),
     rcnn=dict(
-        score_thr=0.05,
+        score_thr=0.3,
         nms=dict(type='nms', iou_threshold=0.5),
         max_per_img=100))
 dataset_type = 'TobyDataset'
@@ -287,7 +288,7 @@ data = dict(
         ]),
     test=dict(
         type='TobyDataset',
-        ann_file='/home/../../data3/giangData/test_detectoRS.txt',
+        ann_file='/home/../../data3/giangData/videoA_1333x800_18000.txt',
         img_prefix='data/coco/val2017/',
         pipeline=[
             dict(type='LoadImageFromFile'),
@@ -325,5 +326,5 @@ log_level = 'INFO'
 load_from = None
 resume_from = None
 workflow = [('train', 1)]
-work_dir = './abc/'
+work_dir = 'abc/'
 gpu_ids = range(0, 1)

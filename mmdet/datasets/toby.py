@@ -4,16 +4,15 @@ import numpy as np
 from .builder import DATASETS
 from .custom import CustomDataset
 import cv2
-from .pipelines import TobyRead
+from .pipelines import TobyRead, Compose
 
 
 @DATASETS.register_module()
 class TobyDataset(CustomDataset):
-    CLASSES = ('ROI')
-
-    # def __init__(self, *args, **kwags):
-    #     super(TobyDataset, self).__init__(*args, **kwags)
-    #     self.pipeline = TobyRead(self.input_pipeline)
+    def __init__(self, *args, **kwags):
+        super(TobyDataset, self).__init__(*args, **kwags)
+        # print(self.input_pipeline)
+        self.pipeline = TobyRead(self.input_pipeline)
 
     def load_annotations(self, ann_file):
         ann_list = mmcv.list_from_file(ann_file)
